@@ -171,6 +171,7 @@ void writeData(String data)
   if (file)
   {
     file.println(data);
+    file.close();
   }
   else
   {
